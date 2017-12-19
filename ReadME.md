@@ -32,8 +32,17 @@
 ## 使用方法：
 
 ```
-   web根目录创建一个777权限的目录，把所有文件拖入目录中
-   访问install.php进行安装
+   cd /var/www/html/ (or other web dir)
+   
+   git clone https://github.com/wupco/weblogger.git
+   
+   chmod -R 777 weblogger/
+   
+   open http://xxxxx/weblogger/install.php in Web browser
+   
+   install it
+   
+   
 
 ```
 

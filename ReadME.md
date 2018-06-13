@@ -45,7 +45,8 @@
    
 
 ```
-
+更详细说明和帮助：
+https://gist.github.com/wupco/ee26f88656fbf36d014f49b4ac47ddc8
 
 
 ## 说明:

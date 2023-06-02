@@ -289,7 +289,7 @@ $args_arr=array(
           }
            function addsa_all()
            {
-            if (!get_magic_quotes_gpc())
+            if (PHP_VERSION >= 6 || !get_magic_quotes_gpc())
             {
                 if (!empty($_GET))
                 {
@@ -537,7 +537,7 @@ if (!file_exists(SaLt_This_is_BAse_DiR))
       echo $this_SalT_hhhaaaa_Db_p->lastErrorMsg();
    } else {
       echo "Opened database successfully\n";
-      mkdir(salt_THIs_iS_Web_Dir.LogGer_Web_DiR,0777,ture);
+      mkdir(salt_THIs_iS_Web_Dir.LogGer_Web_DiR,0777,true);
       echo "web dir created seccessfully\n";
       file_put_contents(salt_THIs_iS_Web_Dir.LogGer_Web_DiR."/index.html", "afjwodmcswqod",FILE_APPEND);
 
